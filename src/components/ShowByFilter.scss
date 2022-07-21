@@ -1,0 +1,151 @@
+body {
+    overflow: none;
+}
+
+.gridD {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+option {
+    background-color: #f0f0f0;
+    color: #a7700a;
+    border: solid #a7700a 4px;
+    border-radius: 50px;
+}
+
+.no {
+    opacity: 0.0;
+}
+
+.is {
+    color: #a7700a;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    width: 130px;
+    height: 50px;
+    background-color: #a7700a00;
+    border-radius: 50px;
+    margin-top: 45px;
+}
+
+.select {
+    text-align: center;
+    color: #a7700a;
+    font-size: large;
+    border: solid #a7700a 4px;
+    width: 130px;
+    height: 50px;
+    background-color: #a7700a00;
+    border-radius: 50px;
+}
+
+.card {
+    direction: rtl;
+    text-align: center;
+    font-weight: 600;
+    font-size: 37px;
+
+}
+
+.c {
+    line-height: 45px;
+    direction: rtl;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.pa {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link {
+    margin: 18px;
+    color: #a7700a;
+    font-size: 35px;
+}
+
+.active {
+    background-color: #a7700a32;
+}
+
+.page-item {
+    border-radius: 50%;
+    margin-top: 100px;
+
+}
+
+
+.design {
+    border: solid #a7700a 2px;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075),
+        0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075),
+        0 16px 16px hsl(0deg 0% 0% / 0.075);
+    background-color: rgba(85, 84, 84, 0.253);
+    padding: 20px;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    margin-top: 40px;
+    line-height: 45px;
+}
+
+.d {
+    line-height: 45px;
+    display: flex;
+    margin: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dd {
+    text-align: center;
+    line-height: 45px;
+    display: flex;
+
+}
+
+.place {
+    font-size: 25px;
+    direction: rtl;
+    padding: auto;
+}
+
+.Pag {
+    flex-direction: row;
+}
+
+.Pag:hover {
+    cursor: pointer;
+}
+
+.noItem {
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (max-width: 1300px) {
+
+    .gridD {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+        align-items: center;
+        padding: 10px;
+        grid-gap: 60px;
+        width: 60%;
+        height: 60%;
+    }
+}

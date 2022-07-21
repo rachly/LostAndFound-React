@@ -1,0 +1,14 @@
+export const SAVE_ITEMS="SAVE_ITEMS";
+export const SET_ITEMS="SET_ITEMS";
+export const SAVE_CATEGORY="SAVE_CATEGORY";
+export const UPDATE_ITEM="UPDATE_ITEM";
+export const SAVE_USER="SAVE_USER";
+export const UPDATE_USER="UPDATE_USER";
+export const ADD_USER="ADD_USER";
+export const SET_IS_BARGIN="SET_IS_BARGIN";
+export const SET_IS_TYPE="SET_IS_TYPE";
+export const ALL_USER="ALL_USER";
+export const ITEM_BY_ID="ITEM_BY_ID";
+export const SAVE_COLORS="SAVE_COLORS";
+export const SELECT_EDIT="SELECT_EDIT";
+export const EDIT_ITEM="EDIT_ITEM";

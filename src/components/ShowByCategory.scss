@@ -1,0 +1,200 @@
+.grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 60% 60%;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.grid button {
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    border: solid #a7700a 2px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    transition: transform 250ms;
+}
+
+.yes1 {
+    font-size: 25px;
+    background-color: #ffffff00;
+    margin-left: 0px;
+}
+
+.yes {
+    font-size: 25px;
+    background-color: #ffffff00;
+    border: none;
+    color: #a7700a;
+}
+
+.yes:hover {
+
+    font-weight: 900;
+
+}
+
+.allM {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.mail {
+    margin-top: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-flow: row;
+}
+
+.deleteEdit {
+    font-size: 18px;
+    color: #a7700a;
+    font-weight: 400;
+    margin: 15px;
+    width: auto;
+    border: 1px solid #a7700a;
+    border-radius: 12%;
+}
+
+.divDelete {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.in1 {
+    width: 120px;
+    height: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(85, 84, 84, 0);
+    margin-left: 35px;
+    position: inherit;
+    padding: 30px;
+    font-size: 30px;
+    color: #a7700a;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.box select {
+    border-radius: 12px;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+@media (max-width:840px) {
+    .grid button {
+        width: 150px;
+        height: 150px;
+        margin-top: 10%;
+        padding: 35px;
+    }
+}
+
+@media (max-width:700px) {
+    .grid {
+        width: 100px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr;
+        justify-items: center;
+        align-items: center;
+        margin-right: 100px;
+
+    }
+}
+
+
+.grid button:hover {
+    transform: translateY(-10px);
+
+    .cat {
+        display: block;
+        font-weight: 200;
+        font-size: 28px;
+    }
+}
+
+.A {
+    background-image: url("../Images/h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.B {
+    background-image: url("../Images/d.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+
+}
+
+.C {
+    background-image: url("../Images/a.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+
+}
+
+.D {
+    background-image: url("../Images/g.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.E {
+    background-image: url("../Images/e.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.F {
+    background-image: url("../Images/c.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.G {
+    background-image: url("../Images/b.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.H {
+    background-image: url("../Images/f.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.cat {
+    display: none;
+}
